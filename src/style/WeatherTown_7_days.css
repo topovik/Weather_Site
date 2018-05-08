@@ -1,0 +1,55 @@
+.weather_7_days {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    margin: 0 1%;
+
+}
+
+.weather_7_days img {
+    width: 60px;
+    border: 2px solid white;
+    border-radius: 20px;
+    box-shadow: 0 0 7px black;
+    margin-bottom: 10px;
+}
+
+.sect {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    background: rgba(41, 39, 39, 0.493);
+}
+
+.sect_child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.sect_child:first-child {
+    border-left: 1px solid rgb(255, 255, 255);
+}
+
+
+.date {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    margin-right: 1%;
+}
+
+.icon_wind_speed {
+    margin-left: -8%;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding-left: 20px;
+    padding-right: 10px;
+}

@@ -1,0 +1,171 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: url(http://tutfon.ru/wallpapers.html?task=download&id=14078);
+    background-size: cover;
+    background-position: top;
+    
+}
+
+body {
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.514);
+}
+
+.main {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    margin: 1% 25% 0 25%;
+    border: 1px solid black;
+    border-radius: 10px 10px 0 0;
+    border-bottom: none;
+    background-image: url(http://fanoboi.com/city/8/sunset-over-the-city-wallpaper-1366x768.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.backMain {
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.39);
+}
+
+.pic {
+    width: 100px;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin: 2% 65% 0 7%;
+    box-shadow: 0 0 7px black;
+}
+
+.temp {
+    display: inline-block;
+    font-size: 80px;
+    font-weight: 600;
+    margin: 0;
+    text-shadow: 0 0 4px white;
+}
+
+.icon_term {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.state_weather {
+    color: rgb(168, 163, 163);
+    font-size: 25px;
+    margin: 0;
+    text-shadow: 2px 2px 3px black;
+}
+
+.icon_state_weather {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.wind_speed {
+    color: rgb(168, 163, 163);
+    font-size: 25px;
+    margin: 0;
+    padding: 1% 0; 
+    text-shadow: 2px 2px 3px black;
+}
+
+.icon_wind_speed_1 {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.weather_now {
+    color: white;
+    font-size: 50px;
+    margin: 0 1%;
+    border-bottom: 2px solid white;
+    text-shadow: 1px 1px 2px white;
+}
+
+.country {
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 3% 0 0 0;
+    text-shadow: 2px 2px 3px black;
+    color: rgb(168, 163, 163);
+}
+
+.icon_country {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.data_time {
+    color: rgb(168, 163, 163);
+    font-size: 25px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.icon_calend {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding-left: 25px;
+    padding-right: 5px;
+}
+
+.icon_clock {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding-right: 5px;
+}
+
+.hourl_weather {
+    display: flex;
+    justify-content: center;
+    margin: 0 25% 0 25%;
+}
+
+.hourl_weather section {
+    position: relative;
+    z-index: 10;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 0 0 10px 10px;
+    border-top: none;
+    padding: 0 3%;
+    margin: 0 1%;
+    background: rgba(204, 204, 204, 0.555);
+}
+
+.hourl_weather img {
+    width: 60px;
+    border: 2px solid white;
+    border-radius: 20px;
+    box-shadow: 0 0 7px black;
+    margin-bottom: 10px;
+}
+
+.hourl_icon {
+    padding-right: 5px;
+}
+
+.hourl_icon_temp {
+    padding-right: 5px;
+}
+
+.hourl_weather p {
+    font-size: 20px;
+    margin: 7% 0;
+}

@@ -1,0 +1,25 @@
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    z-index: 12;
+    margin: 1% 0;
+}
+
+.linkWeather {
+    margin: 0 2% 0 0;
+    color: black;
+    background: rgba(151, 151, 151, 0.521);
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .3em 2em;
+    outline: none;
+    border-radius: 1px;
+    transition: 0.2s;
+}
+
+.linkWeather:hover {
+    background: rgba(255, 255, 255, 0.644);
+}
